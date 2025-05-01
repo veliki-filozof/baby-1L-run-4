@@ -24,8 +24,8 @@ conda env create -f environment.yml
 
 ## Todo list:
 - [ ] [Link to Zenodo](https://zenodo.org/)
-- [ ] Change environment name in [`environment.yml`](environment.yml)
-- [ ] Change environment name in [CI workflows](.github/workflows)
+- [x] Change environment name in [`environment.yml`](environment.yml)
+- [x] Change environment name in [CI workflows](.github/workflows)
 - [ ] Modify [binder](https://mybinder.org/) badge by inserting the repo name
 - [ ] Add general run data to [`data/general.json`](data/general.json)
 - [ ] Add LSC data to [`data/tritium_detection`](data/tritium_detection)

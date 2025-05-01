@@ -1,0 +1,135 @@
+{
+    "general_data": {
+        "description": null,
+        "run_nb": 4,
+        "salt": "ClLiF",
+        "salt_mass": {
+            "value": 1.88,
+            "unit": "kg"
+        },
+        "temperature_salt": {
+            "value": 634,
+            "unit": "degC",
+            "note": null
+        },
+        "purpose_of_run": null
+    },
+    "cover_gas": {
+        "type": "He",
+        "pressure_gas_system": {
+            "value": 10,
+            "unit": "PSIG"
+        },
+        "pressure_gas_crucible": {
+            "value": 3,
+            "unit": "PSIG",
+            "note": null
+        },
+        "flow_rate_sample": {
+            "value": 30,
+            "unit": "SCCM"
+        },
+        "flow_rate_air": {
+            "value": 10,
+            "unit": "SCCM"
+        }
+    },
+    "secondary_gas": {
+        "type": "He",
+        "pressure_gas_system": {
+            "value": null,
+            "unit": "PSIG"
+        },
+        "pressure_gas_crucible": {
+            "value": 3,
+            "unit": "PSIG",
+            "note": null
+        },
+        "flow_rate_sample": {
+            "value": null,
+            "unit": "SCCM"
+        },
+        "flow_rate_air": {
+            "value": null,
+            "unit": "SCCM"
+        }
+    },
+    "generators": [
+        {
+            "name": "A-325",
+            "enabled": true,
+            "acceleration_voltage": {
+                "value": null,
+                "unit": "kV"
+            },
+            "source_voltage": {
+                "value": null,
+                "unit": "kV"
+            },
+            "periods": [
+                {
+                    "start": null,
+                    "end": null
+                }
+            ]
+        },
+        {
+            "name": "P-383",
+            "enabled": false,
+            "beam_current": {
+                "value": "N/A",
+                "unit": "N/A"
+            },
+            "beam_voltage": {
+                "value": "N/A",
+                "unit": "N/A"
+            }
+        }
+    ],
+    "notes": null,
+    "neutron_detection": {
+        "foils": {
+            "enabled": true,
+            "position": null,
+            "materials": [
+                {
+                    "position": null,
+                    "material": null,
+                    "mass": {
+                        "value": null,
+                        "unit": "g"
+                    }
+                },
+                {
+                    "position": null,
+                    "material": null,
+                    "mass": {
+                        "value": null,
+                        "unit": "g"
+                    }
+                }
+            ]
+        },
+        "diamond": {
+            "enabled": false,
+            "note": null,
+            "position": null
+        },
+        "proton_recoil_telecsope": {
+            "enabled": true,
+            "note": null,
+            "position": null
+        }
+    },
+    "timestamps": {
+        "heater": {
+            "on": null,
+            "off": null
+        },
+        "run_start": null
+    },
+    "tritium_detection": {
+        "IV": {},
+        "OV": {}
+    }
+}
