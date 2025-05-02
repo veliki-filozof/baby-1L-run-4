@@ -1,6 +1,6 @@
 {
     "general_data": {
-        "description": null,
+        "description": "Pure 1 L ClLiF, H2 sparging test",
         "run_nb": 4,
         "salt": "ClLiF",
         "salt_mass": {
@@ -10,12 +10,12 @@
         "temperature_salt": {
             "value": 634,
             "unit": "degC",
-            "note": null
+            "note": "minimum, temperature is non-uniform"
         },
-        "purpose_of_run": null
+        "purpose_of_run": "Attempting to speed up trtium release by sparging H2. Attempting to replicate run 1 and 3 TBR and fluence."
     },
     "cover_gas": {
-        "type": "He",
+        "type": "1000 ppm H2 bal. He",
         "pressure_gas_system": {
             "value": 10,
             "unit": "PSIG"
@@ -23,7 +23,7 @@
         "pressure_gas_crucible": {
             "value": 3,
             "unit": "PSIG",
-            "note": null
+            "note": "in steady state, downstream from filters"
         },
         "flow_rate_sample": {
             "value": 30,
@@ -32,26 +32,34 @@
         "flow_rate_air": {
             "value": 10,
             "unit": "SCCM"
+        },
+        "switched_to": {
+            "type": null,
+            "gas_switch_time": null
         }
     },
     "secondary_gas": {
-        "type": "He",
+        "type": "1000 ppm H2 bal. He",
         "pressure_gas_system": {
-            "value": null,
+            "value": 10,
             "unit": "PSIG"
         },
         "pressure_gas_crucible": {
             "value": 3,
             "unit": "PSIG",
-            "note": null
+            "note": "in steady state, downstream from filters"
         },
         "flow_rate_sample": {
-            "value": null,
+            "value": 50,
             "unit": "SCCM"
         },
         "flow_rate_air": {
-            "value": null,
+            "value": 10,
             "unit": "SCCM"
+        },
+        "switched_to": {
+            "type": null,
+            "gas_switch_time": null
         }
     },
     "generators": [
@@ -59,17 +67,25 @@
             "name": "A-325",
             "enabled": true,
             "acceleration_voltage": {
-                "value": null,
+                "value": -100,
                 "unit": "kV"
             },
             "source_voltage": {
-                "value": null,
+                "value": 3,
                 "unit": "kV"
             },
             "periods": [
                 {
-                    "start": null,
-                    "end": null
+                    "start": "5/1/2025 11:07",
+                    "end": "5/1/2025 11:09"
+                },
+                {
+                    "start": "5/1/2025 11:13",
+                    "end": "5/1/2025 12:58"
+                },
+                {
+                    "start": "5/1/2025 13:10",
+                    "end": "5/1/2025 23:23"
                 }
             ]
         },
@@ -86,23 +102,23 @@
             }
         }
     ],
-    "notes": null,
+    "notes": "A-325 positioned under the work surface, cooled with combined blower airflow from the side and small fan from the front. Gap between bottom surface of epoxy and the generator around 1/8 inch. Briefly interrupted to reset MFC.",
     "neutron_detection": {
         "foils": {
             "enabled": true,
-            "position": null,
+            "position": "on generators, at target plane, facing top and bottom",
             "materials": [
                 {
-                    "position": null,
-                    "material": null,
+                    "position": "A 325 - top",
+                    "material": "Zr",
                     "mass": {
                         "value": null,
                         "unit": "g"
                     }
                 },
                 {
-                    "position": null,
-                    "material": null,
+                    "position": "A 325 - bottom",
+                    "material": "Nb",
                     "mass": {
                         "value": null,
                         "unit": "g"
@@ -118,18 +134,60 @@
         "proton_recoil_telecsope": {
             "enabled": true,
             "note": null,
-            "position": null
+            "position": "At target plane, at the level of the generator, 9.9 +/- 0.2 cm away from edge of generator to face of PRT"
         }
     },
     "timestamps": {
         "heater": {
-            "on": null,
+            "on": "3/12/2025 16:37",
             "off": null
         },
-        "run_start": null
+        "run_start": "5/1/2025 11:07"
     },
     "tritium_detection": {
-        "IV": {},
-        "OV": {}
+        "IV": {
+            "1": {
+                "planned_sample_time": "5/1/2025 23:07",
+                "actual_sample_time": "5/1/2025 23:29",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+                    "2": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+                    "3": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+                    "4": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv"
+                }
+            },
+            "2": {
+                "planned_sample_time": "5/2/2025 11:07",
+                "actual_sample_time": "5/2/2025 11:05",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+                    "2": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+                    "3": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+                    "4": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv"
+                }
+            }
+        },
+        "OV": {
+            "1": {
+                "planned_sample_time": "5/1/2025 23:07",
+                "actual_sample_time": "5/1/2025 23:29",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+                    "2": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+                    "3": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+                    "4": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv"
+                }
+            },
+            "2": {
+                "planned_sample_time": "5/2/2025 11:07",
+                "actual_sample_time": "5/2/2025 11:05",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+                    "2": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+                    "3": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
+                    "4": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv"
+                }
+            }
+        }
     }
 }
