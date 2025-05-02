@@ -44,7 +44,7 @@ def create_sample(label: str, filename: str) -> LSCSample:
     sample = LSCSample.from_file(file_reader, label)
 
     # try to find the background sample from the file
-    background_labels = ["1L-BL-1", "1L-BL-2", "1L-BL-3"]
+    background_labels = ["1L-BL-1", "1L-BL-2", "1L-BL-3", "1L-BL-4"]
     background_sample = None
 
     for background_label in background_labels:
@@ -132,13 +132,13 @@ replacement_times_top = sampling_times["IV"]
 replacement_times_walls = sampling_times["OV"]
 
 # read gas change time
-
-gas_switch_time = datetime.strptime(
-    general_data["cover_gas"]["switched_to"]["gas_switch_time"], "%m/%d/%Y %H:%M"
-)
-gas_switch_deltatime = gas_switch_time - start_time
-gas_switch_deltatime = gas_switch_deltatime.total_seconds() * ureg.s
-gas_switch_deltatime = gas_switch_deltatime.to(ureg.day)
+if general_data["cover_gas"]["switched_to"]["gas_switch_time"]:
+    gas_switch_time = datetime.strptime(
+        general_data["cover_gas"]["switched_to"]["gas_switch_time"], "%m/%d/%Y %H:%M"
+    )
+    gas_switch_deltatime = gas_switch_time - start_time
+    gas_switch_deltatime = gas_switch_deltatime.total_seconds() * ureg.s
+    gas_switch_deltatime = gas_switch_deltatime.to(ureg.day)
 
 # tritium model
 
@@ -209,8 +209,8 @@ measured_TBR = (T_produced / quantity_to_activity(T_consumed)).to(
 )
 
 # Run 1 transport coeff and measured TBR for overlay
-optimised_ratio = 0.0 * 1.7e-2
-k_top = 1.45 * 8.9e-8 * ureg.m * ureg.s**-1
+optimised_ratio =  0.01
+k_top = 12 * 1.45 * 8.9e-8 * ureg.m * ureg.s**-1
 k_wall = optimised_ratio * k_top
 
 baby_model = Model(
