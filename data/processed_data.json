@@ -1,0 +1,128 @@
+{
+    "modelled_TBR": {
+        "mean": 0.0020401129034558064,
+        "std_dev": 2.8715246808521312e-05
+    },
+    "modelled_baby_radius": {
+        "value": 7.0,
+        "unit": "centimeter"
+    },
+    "modelled_baby_height": {
+        "value": 0.00649612012619981,
+        "unit": "liter / centimeter ** 2"
+    },
+    "irradiations": [
+        {
+            "start_time": {
+                "value": 0.0,
+                "unit": "second"
+            },
+            "stop_time": {
+                "value": 120.0,
+                "unit": "second"
+            }
+        },
+        {
+            "start_time": {
+                "value": 360.0,
+                "unit": "second"
+            },
+            "stop_time": {
+                "value": 6660.0,
+                "unit": "second"
+            }
+        },
+        {
+            "start_time": {
+                "value": 7380.0,
+                "unit": "second"
+            },
+            "stop_time": {
+                "value": 44160.0,
+                "unit": "second"
+            }
+        }
+    ],
+    "neutron_rate_used_in_model": {
+        "value": 104170000.00000001,
+        "unit": "neutron / second"
+    },
+    "measured_TBR": {
+        "value": 0.0018385494857881051,
+        "unit": "particle / neutron"
+    },
+    "TBR_used_in_model": {
+        "value": 0.0020401129034558064,
+        "unit": "particle / neutron"
+    },
+    "k_top": {
+        "value": 1.5485999999999999e-06,
+        "unit": "meter / second"
+    },
+    "k_wall": {
+        "value": 1.5486e-08,
+        "unit": "meter / second"
+    },
+    "cumulative_tritium_release": {
+        "IV": {
+            "total": {
+                "value": [
+                    6.033,
+                    12.889
+                ],
+                "unit": "becquerel"
+            },
+            "soluble": {
+                "value": [
+                    0.0,
+                    0.0
+                ],
+                "unit": "becquerel"
+            },
+            "insoluble": {
+                "value": [
+                    6.033,
+                    12.889
+                ],
+                "unit": "becquerel"
+            },
+            "sampling_times": {
+                "value": [
+                    0.5152777777777777,
+                    0.9986111111111109
+                ],
+                "unit": "day"
+            }
+        },
+        "OV": {
+            "total": {
+                "value": [
+                    0.09099999999999997,
+                    0.5589999999999998
+                ],
+                "unit": "becquerel"
+            },
+            "soluble": {
+                "value": [
+                    0.0,
+                    0.041999999999999926
+                ],
+                "unit": "becquerel"
+            },
+            "insoluble": {
+                "value": [
+                    0.09099999999999997,
+                    0.5169999999999999
+                ],
+                "unit": "becquerel"
+            },
+            "sampling_times": {
+                "value": [
+                    0.5152777777777777,
+                    0.9986111111111109
+                ],
+                "unit": "day"
+            }
+        }
+    }
+}
