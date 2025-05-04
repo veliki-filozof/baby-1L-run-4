@@ -150,20 +150,30 @@
                 "planned_sample_time": "5/1/2025 23:07",
                 "actual_sample_time": "5/1/2025 23:29",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
-                    "2": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
-                    "3": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
-                    "4": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv"
+                    "1": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+                    "2": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+                    "3": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+                    "4": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv"
                 }
             },
             "2": {
                 "planned_sample_time": "5/2/2025 11:07",
                 "actual_sample_time": "5/2/2025 11:05",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
-                    "2": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
-                    "3": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
-                    "4": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv"
+                    "1": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+                    "2": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+                    "3": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+                    "4": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv"
+                }
+            },
+            "3": {
+                "planned_sample_time": "5/3/2025 11:07",
+                "actual_sample_time": "5/3/2025 15:37",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_4-3_OV_4-3_BL-4_SHORT.csv",
+                    "2": "1L_IV_4-3_OV_4-3_BL-4_SHORT.csv",
+                    "3": "1L_IV_4-3_OV_4-3_BL-4_SHORT.csv",
+                    "4": "1L_IV_4-3_OV_4-3_BL-4_SHORT.csv"
                 }
             }
         },
@@ -172,20 +182,30 @@
                 "planned_sample_time": "5/1/2025 23:07",
                 "actual_sample_time": "5/1/2025 23:29",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
-                    "2": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
-                    "3": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
-                    "4": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv"
+                    "1": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+                    "2": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+                    "3": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+                    "4": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv"
                 }
             },
             "2": {
                 "planned_sample_time": "5/2/2025 11:07",
                 "actual_sample_time": "5/2/2025 11:05",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
-                    "2": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
-                    "3": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv",
-                    "4": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4_SHORT.csv"
+                    "1": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+                    "2": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+                    "3": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv",
+                    "4": "1L_IV_4-1_4-2_OV_4-1_4-2_BL-4.csv"
+                }
+            },
+            "3": {
+                "planned_sample_time": "5/3/2025 11:07",
+                "actual_sample_time": "5/3/2025 15:37",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_4-3_OV_4-3_BL-4_SHORT.csv",
+                    "2": "1L_IV_4-3_OV_4-3_BL-4_SHORT.csv",
+                    "3": "1L_IV_4-3_OV_4-3_BL-4_SHORT.csv",
+                    "4": "1L_IV_4-3_OV_4-3_BL-4_SHORT.csv"
                 }
             }
         }
