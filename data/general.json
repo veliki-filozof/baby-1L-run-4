@@ -133,7 +133,7 @@
         },
         "proton_recoil_telecsope": {
             "enabled": true,
-            "note": null,
+            "note": "all the PRT data was lost due to a crash of the GUI + downloads were blocked by chrome",
             "position": "At target plane, at the level of the generator, 9.9 +/- 0.2 cm away from edge of generator to face of PRT"
         }
     },
