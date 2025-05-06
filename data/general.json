@@ -222,10 +222,10 @@
                 "planned_sample_time": "5/5/2025 11:07",
                 "actual_sample_time": "5/5/2025 10:49",
                 "lsc_vials_filenames": {
-                    "1": "1L_IV_4-4_OV_4-4_BL-4_SHORT.csv",
-                    "2": "1L_IV_4-4_OV_4-4_BL-4_SHORT.csv",
-                    "3": "1L_IV_4-4_OV_4-4_BL-4_SHORT.csv",
-                    "4": "1L_IV_4-4_OV_4-4_BL-4_SHORT.csv"
+                    "1": "1L_IV_4-4_OV_4-4_BL-4.csv",
+                    "2": "1L_IV_4-4_OV_4-4_BL-4.csv",
+                    "3": "1L_IV_4-4_OV_4-4_BL-4.csv",
+                    "4": "1L_IV_4-4_OV_4-4_BL-4.csv"
                 }
             }
         }
