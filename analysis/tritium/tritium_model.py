@@ -167,11 +167,14 @@ for generator in general_data["generators"]:
         irradiations.append([irr_start_time, irr_stop_time])
 
 # Neutron rate
-neutron_rate_relative_uncertainty = 0.1
 
 
 # TODO from Collin's foil analysis, replace with more robust method
 neutron_rate = 8.05e7 * ureg.neutron * ureg.s**-1
+neutron_rate_uncertainty = 5.1e6 * ureg.neutron * ureg.s**-1
+neutron_rate_relative_uncertainty = (neutron_rate_uncertainty / neutron_rate).to(
+    ureg.dimensionless
+)
 
 # TBR from OpenMC
 
