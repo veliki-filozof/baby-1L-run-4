@@ -231,7 +231,7 @@
                 }
             },
             "9": {
-                "planned_sample_time": "5/10/2025 11:07",
+                "planned_sample_time": "5/9/2025 11:07",
                 "actual_sample_time": "5/9/2025 13:47",
                 "lsc_vials_filenames": {
                     "1": "1L_IV_4-9_OV_4-9_BL-4.csv",
@@ -241,13 +241,23 @@
                 }
             },
             "10": {
-                "planned_sample_time": "5/11/2025 11:07",
-                "actual_sample_time": null,
+                "planned_sample_time": "5/10/2025 11:07",
+                "actual_sample_time": "5/10/2025 09:48",
                 "lsc_vials_filenames": {
-                    "1": null,
-                    "2": null,
-                    "3": null,
-                    "4": null
+                    "1": "1L_IV_4-10_4-11_OV_4-10_BL-4.csv",
+                    "2": "1L_IV_4-10_4-11_OV_4-10_BL-4.csv",
+                    "3": "1L_IV_4-10_4-11_OV_4-10_BL-4.csv",
+                    "4": "1L_IV_4-10_4-11_OV_4-10_BL-4.csv"
+                }
+            },
+            "11": {
+                "planned_sample_time": "5/11/2025 11:07",
+                "actual_sample_time": "5/11/2025 18:28",
+                "lsc_vials_filenames": {
+                    "1": "1L_IV_4-10_4-11_OV_4-10_BL-4.csv",
+                    "2": "1L_IV_4-10_4-11_OV_4-10_BL-4.csv",
+                    "3": "1L_IV_4-10_4-11_OV_4-10_BL-4.csv",
+                    "4": "1L_IV_4-10_4-11_OV_4-10_BL-4.csv"
                 }
             }
         },
@@ -333,7 +343,7 @@
                 }
             },
             "9": {
-                "planned_sample_time": "5/10/2025 11:07",
+                "planned_sample_time": "5/9/2025 11:07",
                 "actual_sample_time": "5/9/2025 13:47",
                 "lsc_vials_filenames": {
                     "1": "1L_IV_4-9_OV_4-9_BL-4.csv",
@@ -344,12 +354,12 @@
             },
             "10": {
                 "planned_sample_time": "5/11/2025 11:07",
-                "actual_sample_time": null,
+                "actual_sample_time": "5/11/2025 18:28",
                 "lsc_vials_filenames": {
-                    "1": null,
-                    "2": null,
-                    "3": null,
-                    "4": null
+                    "1": "1L_IV_4-10_4-11_OV_4-10_BL-4.csv",
+                    "2": "1L_IV_4-10_4-11_OV_4-10_BL-4.csv",
+                    "3": "1L_IV_4-10_4-11_OV_4-10_BL-4.csv",
+                    "4": "1L_IV_4-10_4-11_OV_4-10_BL-4.csv"
                 }
             }
         }
