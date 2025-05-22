@@ -1,0 +1,64 @@
+Assay Definition
+
+Assay Description:
+1L BABY Experiment standard count, beginning with run 1L-3
+Assay Type: DPM (Single)
+Report Name: Report1
+Output Data Path: C:\Packard\Tricarb\Results\Default\NEW_Flibe_Long\20250521_2000\Replay_20250522_153918
+Raw Results Path: C:\Packard\Tricarb\Results\Default\NEW_Flibe_Long\20250521_2000\20250521_2000.results
+Comma-Delimited File Name: C:\Packard\Tricarb\Results\Default\NEW_Flibe_Long\20250521_2000\Replay_20250522_153918\1L_IV_4-15_OV_4-13_BL-4.csv
+Assay File Name: C:\Packard\TriCarb\Assays\NEW_Flibe_Long.lsa
+
+Additional Data Files Generated with this Protocol:
+Report1
+		[Excel]	1L_IV_4-15_OV_4-13_BL-4.csv
+
+
+Count Conditions
+
+Nuclide: LIBRA UG LLT NM      
+   Quench Indicator: tSIE
+   External Std Terminator (sec): 0.5 2s%
+   Pre-Count Delay (min): 0.00
+Quench Set:                   
+   Low Energy: 3H-UG-LLT-NM-C
+Count Time (min): 100.00
+Count Mode: Normal                                          
+Assay Count Cycles: 1         Repeat Sample Count: 1        
+Number of Vials/Sample: 1     Calculate % Reference: Off                                  
+
+
+Background Subtract: Off
+Low CPM Threshold: Off
+2 Sigma % Terminator: Off
+
+Regions         LL       UL
+A              0.5      5.0
+B              0.5     10.0
+C              0.0     18.6
+
+
+Count Corrections
+
+Static Controller: On         Luminescence Correction: On     GCT: n/a
+Colored Samples: Off          Heterogeneity Monitor: Off      PAC: Disabled
+Coincidence Time (nsec): 18   Delay Before Burst (nsec): 75   PAC Strength: n/a   Auxiliary Spectrum: n/a
+
+
+S#,SMPL_ID,Bq:1,CPMA,LUM,tSIE,Eff Nuc1 In A,Count Time,DPM1
+1,1L-BL-4,0.279,4.200,0,291.59,25.10,100,16.734
+Missing vial 2.
+3,1L-IV_4-15-1,0.240,4.250,0,356.96,29.48,100,14.415
+4,1L-IV_4-15-2,0.295,4.530,0,297.70,25.62,100,17.679
+5,1L-IV_4-15-3A,0.430,6.420,0,288.84,24.86,100,25.821
+6,1L-IV_4-15-3B,0.378,5.680,0,291.06,25.05,100,22.671
+7,1L-IV_4-15-4,0.286,4.340,0,294.12,25.32,100,17.143
+Missing vial 8.
+9,1L-OV_4-13-1,0.216,4.080,0,396.18,31.52,100,12.945
+10,1L-OV_4-13-2,0.261,4.000,0,296.94,25.56,100,15.651
+11,1L-OV_4-13-3A,2.649,39.590,0,289.38,24.91,100,158.935
+12,1L-OV_4-13-3B,2.775,41.310,0,288.19,24.81,100,166.525
+13,1L-OV_4-13-4,1.120,16.980,0,293.51,25.26,100,67.210
+Manually added sum:
+15,1L-IV_4-15-3,0.808,12.100,0,289.95,24.96,100,48.492
+16,1L-OV_4-13-3,5.424,80.900,0,288.79,24.86,100,325.460
