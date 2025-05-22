@@ -4,13 +4,13 @@
 
 This is a template repository for experimental runs of LIBRA.
 
-This repository has the data for the run [**insert run name**].
+This repository has the data for the run [**BABY 1L run 4**].
 
 ## How to reproduce the results
 
 ### In Binder
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LIBRA-project/INSERT-REPO-NAME/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LIBRA-project/BABY-1L-run-4/HEAD)
 
 ### Locally
 
@@ -20,18 +20,18 @@ This repository has the data for the run [**insert run name**].
 conda env create -f environment.yml
 ```
 
-2. Run the notebooks with the created environment `[INSERT NAME OF ENV]`
+2. Run the notebooks with the created environment `baby-1l-run-4`
 
 ## Todo list:
 - [ ] [Link to Zenodo](https://zenodo.org/)
 - [x] Change environment name in [`environment.yml`](environment.yml)
 - [x] Change environment name in [CI workflows](.github/workflows)
-- [ ] Modify [binder](https://mybinder.org/) badge by inserting the repo name
+- [x] Modify [binder](https://mybinder.org/) badge by inserting the repo name
 - [ ] Add general run data to [`data/general.json`](data/general.json)
 - [ ] Add LSC data to [`data/tritium_detection`](data/tritium_detection)
 - [ ] Add neutron detection data to [`data/neutron_detection`](data/neutron_detection)
-- [ ] Add OpenMC model to [`analysis/neutron`](analysis/neutron)
-- [ ] Add Tritium model to [`analysis/tritium`](analysis/tritium)
+- [x] Add OpenMC model to [`analysis/neutron`](analysis/neutron)
+- [x] Add Tritium model to [`analysis/tritium`](analysis/tritium)
 - [ ] Add the right version tags to [`environment.yml`](environment.yml)
 - [ ] Add and update information in the README
 - [ ] Add all analysis to [CI workflows](.github/workflows)
