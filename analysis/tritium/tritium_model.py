@@ -170,8 +170,8 @@ for generator in general_data["generators"]:
 
 
 # TODO from Collin's foil analysis, replace with more robust method
-neutron_rate = 8.05e7 * ureg.neutron * ureg.s**-1
-neutron_rate_uncertainty = 5.1e6 * ureg.neutron * ureg.s**-1
+neutron_rate = 8.31e07 * ureg.neutron * ureg.s**-1
+neutron_rate_uncertainty = 4.9e06 * ureg.neutron * ureg.s**-1
 neutron_rate_relative_uncertainty = (neutron_rate_uncertainty / neutron_rate).to(
     ureg.dimensionless
 )
@@ -200,8 +200,14 @@ calculated_TBR_std_dev = (
 total_irradiation_time = sum([irr[1] - irr[0] for irr in irradiations])
 
 T_consumed = neutron_rate * total_irradiation_time
-T_produced = sum(
-    [stream.get_cumulative_activity("total")[-1] for stream in run.streams]
+
+# to calculate the measured TBR we ignore the last samples for which
+# we have some contribution from other sources (nGen, cyclotron, etc.)
+nb_samples_included_iv = 10
+nb_samples_included_ov = 9
+T_produced = (
+    IV_stream.get_cumulative_activity("total")[nb_samples_included_iv - 1]
+    + OV_stream.get_cumulative_activity("total")[nb_samples_included_ov - 1]
 )
 
 measured_TBR = (T_produced / quantity_to_activity(T_consumed)).to(
