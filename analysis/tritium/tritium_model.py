@@ -203,14 +203,10 @@ T_consumed = neutron_rate * total_irradiation_time
 
 # to calculate the measured TBR we ignore the last samples for which
 # we have some contribution from other sources (nGen, cyclotron, etc.)
-nb_samples_included_iv = 10
-nb_samples_included_ov = 9
-T_produced = (
-    IV_stream.get_cumulative_activity("total")[nb_samples_included_iv - 1]
-    + OV_stream.get_cumulative_activity("total")[nb_samples_included_ov - 1]
-)
+nb_samples_included_iv = 9
+T_produced_IV = IV_stream.get_cumulative_activity("total")[nb_samples_included_iv - 1]
 
-measured_TBR = (T_produced / quantity_to_activity(T_consumed)).to(
+measured_TBR = (T_produced_IV / quantity_to_activity(T_consumed)).to(
     ureg.particle * ureg.neutron**-1
 )
 
@@ -222,7 +218,7 @@ k_wall = optimised_ratio * k_top
 baby_model = Model(
     radius=baby_radius,
     height=baby_height,
-    TBR=calculated_TBR,
+    TBR=measured_TBR,
     neutron_rate=neutron_rate,
     irradiations=irradiations,
     k_top=k_top,
